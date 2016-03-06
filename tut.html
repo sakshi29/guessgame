@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="http:/maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<link rel="stylesheet" href="tut.css">
+<title>tutorial</title>
+</head>
+<body>
+<div class="jumbotron">
+<h1> GAME USING JAVASCRIPT</h1>
+</div>
+<div class="text">
+<p>Hey, today we will build a simple fun game using javascript</p>
+<p> In this tutorial we will make a picture guessing game using basic javascript and simple to understand functions.<br>
+<p> See the game by clicking on DEMO </p>
+<a  id="link" href="gameremake.html" target="_blank">DEMO</a><br><br>
+To focus on most basic task of game development , I've divided this game into sub-sets of the features that one may find in full-featured game.
+</p>
+<h2> Here we go</h2>
+<p>Description</p>
+<p> The game is very simple . one part of the picture of some famous personality is shown and the player has to guess the name of the
+famous personality .In case he is not able to guess , some hints are provided .There are 3 levels in this game</p>
+<p> Lets divide the game into four steps.<br><br>
+ 1. Main page containing the name of the game and link to three different levels:easy, medium, hard. We will make use of html.<br><br>
+ 2. Function to check whether the answer is right or wrong.<br><br>
+ 3. Function to show some part of the picture everytime the player clicks on hint button.<br><br>
+ 4. Function to show the score of the player.<br><br>
+ </p>
+<h2> STEP 1</h2>
+<p>This is the html code .</p>
+<img src="pic/screenshot 13.png" alt="function" ><br>
+<p>You can style it in any way you like using css and bootstrap.<br><br>
+<img src="pic/screenshot 10.png" alt="function" ><br>
+you can see there are three links . When we click on any one of them a new window opens.<br>
+</p>
+<h2> STEP 2</h2>
+<p>  To check whether the answer entered by player is correct or not. we will use javascript function.<br><br>
+this is the html form tag which is used to create an html input form</p>
+<img src="pic/screenshot 11.png" alt="function" ><br><br>
+<p>javascript function is</p>
+<img src="pic/screenshot 8.png" alt="function" >
+<p>whatever player enters in form gets save in myform and then is passed to the function and is  stored in a variable named input .<br><br>
+   if( input == right answer)<br>
+   then alert player telling that his answer is correct else wrong.</p>
+<h2>STEP 3</h2>
+<p>To unhide some part of picture we have used the styling feature of CSS.<br>
+First make a table of the required width and height in which the picture will be displayed using HTML table tag.Now make rows and colums equal to the number of 
+small parts of orginal picture. Set each part at its right position as background image in each column of the table. For each column set the CSS property display to none accept any one column<br>
+display:none;<br>
+Assign id to every column and set it equal to 1 to n where n is the total no of columns .Assign in the order in which you want parts of picture should appear.</p>
+<img src="pic/screenshot 12.png" alt="function" ><br><br>
+ <p> The javascript function </p>
+ <img src="pic/screenshot 6.png" alt="function" ><br><br>
+ <p>When the player click on hint button add function is called.Which increases the value of var i with 1 and calls toggle_visibility function in which i is passed as argument.
+The toggle_visibility function unhide the element (column) with id equals to i .</p>
+ <h2>STEP 4</h2>
+ <p> Initially the player has full score but everytime the player clicks on hint button 10 point are deducted from the current score.<br>
+ The javascript function is <br>
+ <img src="pic/screenshot 5.png" alt="function" ><br>
+ in this when the player click on hint button JAVASCRIPT function current_score is called which minus 10 point from current score of the player</p>
+<p> Now the game is ready .you can style it in any way you want using CSS and BOOTSTRAP also you can try some different logic for the above function.<br><br>
+HAPPY GAMING AND HAPPY CODING </P>
+ </div>
+  </body>
+</html>

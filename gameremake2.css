@@ -1,0 +1,139 @@
+#section {
+    width:350px;
+    float:left;
+    padding:10px;	 	 
+}
+ .game table{
+background-color: grey;
+
+  width: 605px;
+  height: 700px;
+  margin-left: 70px;
+}
+.part1
+{
+position:absolute;
+
+background-image:url("pic/1-PC2Cqi81Bq.jpg") ;
+width:150px;
+height:233px;
+display:block;
+}
+.part2
+{
+position:absolute;
+top:136px;
+left:531px;
+background-image:url("pic/2-PC2Cqi81Bq.jpg") ;
+width:150px;
+height:233px;
+}
+.part3
+{
+position:absolute;
+top:136px;
+left:680px;
+background-image:url("pic/3-PC2Cqi81Bq.jpg") ;
+width:150px;
+height:233px;
+
+}
+.part4
+{
+position:absolute;
+top:136px;
+left:830px;
+background-image:url("pic/4-PC2Cqi81Bq.jpg") ;
+width:150px;
+
+height:233px;
+}
+.part5
+{
+position: absolute;
+  top: 367px;
+  background-image:url("pic/5-PC2Cqi81Bq.jpg") ;
+  width: 150px;
+  height: 233px;
+ 
+}
+
+
+.part6
+{
+  position: absolute;
+  top: 367px;
+  left: 531px;
+  background-image:url("pic/6-PC2Cqi81Bq.jpg") ;
+  width: 150px;
+  height: 233px;
+  
+
+}
+.part7
+{
+  position: absolute;
+  top: 367px;
+  left: 680px;
+  width: 150px;
+  background-image:url("pic/7-PC2Cqi81Bq.jpg") ;
+  height: 233px;
+  
+
+}
+.part8
+{
+position: absolute;
+  top: 367px;
+  left: 830px;
+  background-image:url("pic/8-PC2Cqi81Bq.jpg") ;
+  width: 150px;
+  height: 233px;
+}
+.part9
+{
+position:absolute;
+top:599px;
+background-image:url("pic/9-PC2Cqi81Bq.jpg") ;
+width:150px;
+height:233px;
+}
+.part10
+{
+position:absolute;
+top:599px;
+left:531px;
+background-image:url("pic/10-PC2Cqi81Bq.jpg") ;
+width:150px;
+height:233px;
+
+}
+.part11
+{
+position:absolute;
+top:599px;
+left:680px;
+background-image:url("pic/11-PC2Cqi81Bq.jpg") ;
+width:150px;
+height:233px;
+}
+.part12
+{
+position:absolute;
+top:599px;
+left:830px;
+background-image:url("pic/12-PC2Cqi81Bq.jpg") ;
+width:150px;
+height:233px;
+
+}
+
+
+
+
+
+
+
+
+
+

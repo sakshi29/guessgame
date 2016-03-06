@@ -1,0 +1,198 @@
+
+body{
+background:url("../images/back.png")  ;
+font-family:tahoma;
+}
+#wrapper{
+width:1000px;
+height:1000px;
+margin: 0 auto;
+padding:50px;
+background-color:;
+}
+.icon
+{
+position:absolute;
+top:10px;
+left:15px;
+background:url("../images/logo.png") ;
+width:150px;
+height:150px;
+border: 1px solid #3cafcf;
+border-radius: 30px;
+}
+.header{
+
+background:url("../images/header.png") ;
+width:500px;
+height:100px;
+border: 1px solid #3cafcf;
+border-radius: 30px;
+margin-left:250px;
+margin-bottom:50px;
+}
+#control{
+position:absolute;
+left:950px;
+top:100px;
+width:300px;
+height:820px;
+background-image:url("../images/control.png") ;
+padding: 20px 20px 20px;
+border: 1px solid #DD3B3B;
+border-radius: 9px;
+text-align:center;
+}
+table{
+background:url("../images/table.png")  ;
+width:450px;
+height:450px;
+}
+.game_area1{
+position:absolute;
+top:210px;
+left:175px;
+background:url("../images/monalisa/1.gif")no-repeat ;
+width:150px;
+height:150px;
+display:none;
+}
+.game_area2{
+position:absolute;
+top:210px;
+left:325px;
+background:url("../images/monalisa/2.gif")no-repeat ;
+width:150px;
+height:150px;
+display:none;
+}
+.game_area3{
+position:absolute;
+top:210px;
+left:475px;
+background:url("../images/monalisa/3.gif")no-repeat ;
+width:150px;
+height:150px;
+display:none;
+}
+.game_area4{
+position:absolute;
+top:360px;
+left:175px;
+background:url("../images/monalisa/4.gif")no-repeat ;
+width:150px;
+height:150px;
+display:none;
+}
+.game_area5{
+position:absolute;
+top:360px;
+left:325px;
+background:url("../images/monalisa/5.gif")no-repeat ;
+width:150px;
+height:150px;
+display:none;
+}
+.game_area6{
+position:absolute;
+top:360px;
+left:475px;
+background:url("../images/monalisa/6.gif")no-repeat ;
+width:150px;
+height:150px;
+display:none;
+}
+.game_area7{
+position:absolute;
+top:510px;
+left:175px;
+background:url("../images/monalisa/7.gif")no-repeat ;
+width:150px;
+height:150px;
+display:none;
+}
+.game_area8{
+position:absolute;
+top:510px;
+left:325px;
+background:url("../images/monalisa/8.gif")no-repeat ;
+width:150px;
+height:150px;
+}
+.game_area9{
+position:absolute;
+top:510px;
+left:475px;
+background:url("../images/monalisa/9.gif")no-repeat ;
+width:150px;
+height:150px;
+display:none;
+}
+#start
+{
+cursor: pointer;
+width:100px;
+height:25px;
+background: linear-gradient(to bottom, rgba(153,216,244,1) 0%,rgba(79,183,236,1) 100%);
+border: 1px solid #3cafcf;
+border-radius: 9px;
+padding: 10px 20px;
+margin: 0 auto;
+}
+
+button {
+cursor: pointer;
+background: linear-gradient(to bottom, rgba(153,216,244,1) 0%,rgba(79,183,236,1) 100%);
+border: 1px solid #3cafcf;
+border-radius: 9px;
+padding: 10px 20px;
+font-size: 15px;
+color: white;
+display:none;
+margin:0 auto;
+}
+#answer{
+height: 34px;
+position: relative;
+border-radius: 9px;
+bottom: 2px;
+background-color: rgb(73, 56, 197);;
+color: white;
+font-size: 17px;
+padding-left: 10px;
+border: 2px solid rgb(83, 109, 96);
+margin:10px;
+}
+#again{
+cursor: pointer;
+width:100px;
+height:40px;
+background: linear-gradient(to bottom, rgba(153,216,244,1) 0%,rgba(79,183,236,1) 100%);
+border: 1px solid #3cafcf;
+border-radius: 9px;
+padding: 10px 20px;
+margin: 0 auto;
+display:block;
+}
+a
+{
+display:block;
+width:100px;
+height:40px;
+}
+a:link{
+text-decoration:none;
+}
+#copyright
+{
+background:url("../images/copyright.png") ;
+width:600px;
+height:100px;
+border: 1px solid #3cafcf;
+border-radius: 30px;
+margin-top:75px;
+}
+a
+{
+diplay:block;
+}

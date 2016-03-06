@@ -1,0 +1,89 @@
+body{
+ background-image:url("pic/abc.jpg");
+}
+
+
+.start h1{
+text-align:center;
+}
+.jumbotron {
+text-align:center;
+opacity: 0.8;
+ filter: alpha(opacity=20);
+}
+.nav {
+  text-align:center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.nav h2{
+   font-weight:bold;
+  color: limegreen;
+ font-size:50px;
+ }
+.button
+{display:none;
+text-align:center;
+ }
+ .button ul{
+ margin-top:30px;}
+ul#menu li {
+display:inline;
+}
+ul#menu li a {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px 4px 0 0;
+	
+}
+
+ul#menu li a:hover {
+    background-color: orange;
+}
+#footer{background-color:#9999FF;
+    color:black;
+    clear:both;
+    text-align:center;
+   padding:10px;	 	 
+}
+#nav {
+    line-height:30px;
+    background-color:beige;
+    height:700px;
+    width:300px;
+    float:left;
+    padding:5px;
+  opacity: 0.8;
+ filter: alpha(opacity=20);	
+}
+#nav h2{  text-align: center;
+  color: darkslateblue;}
+  #nav p{margin: 30px 20px 10px;
+  font-size: 17px;
+  }
+#btn{background-color: black;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px 4px 0 0;
+}
+#show1:hover{background-color:cadetblue;
+}
+#show1
+{font-size: initial;
+  line-height: inherit;
+  margin: 20px 30px;
+  border-style: solid;
+  border-color: darkcyan;
+  }
+  #key{
+  margin:20px 30px;}
+  #key2
+  {margin:20px 20px;
+  font-size: initial;
+  line-height: inherit;
+   border-style: solid;
+  border-color: darkcyan;}
+ 

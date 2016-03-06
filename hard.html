@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+ <script type="text/javascript" src="g2.js"></script>
+ <link rel="stylesheet" href="gameremake.css">
+ <link rel="stylesheet" href="gameremake4.css">
+ <title>NilGame</title>
+</head>
+<body>
+<div class="jumbotron">
+<div class="pull-left">
+         <ul id="menu">
+          <li><a href="gameremake.html">HOME</a></li>
+          </ul>
+</div>
+</div>
+<div id="nav" >
+       <h2>Score Card</h2>
+        <p id="score">Your Score:150</p>
+        <p>Need help!<br>Click the hint to unfold parts of the images<br>hints</p>
+<button id="show1" onClick="score(current_score); add(document.getElementById('show1'));">Show Another</button>
+
+  
+</div>
+<div id="nav" class="pull-right">
+              <p>GUESS the correct answer<br>answer:<br></p>
+               <form id="key" name="myform" action="" autocomplete="off">
+               <input type="text" name="answer" autocomplete="off">
+               <input id="key2"type="submit" name="button" onclick="result(this.myform);" value="submit"/>
+               </form> 
+
+</div>
+<div id="section">
+<div class="game">
+         <table border="1" cellpadding="0" cellspacing="0">
+         <tr>
+         <td id="1" style="display:none"  class="part1"></td>
+         <td id="12" style="display:none" class="part2"></td>
+         <td id="9" style="display:none" class="part3"></td>
+         <td id="7" style="display:none"  class="part4"></td>
+         </tr>
+          <tr>
+          <td id="10" style="display:none" class="part5"></td>
+          <td id="6" style="display:block"  class="part6"></td>
+          <td id="11" style="display:none"class="part7"></td>
+          <td  id="2" style="display:none" class="part8"></td>
+          </tr>
+          <tr>
+          <td id="5" style="display:none"class="part9"></td>
+          <td id="3" style="display:none"class="part10"></td>
+          <td id="8" style="display:none"class="part11"></td>
+          <td id="4" style="display:none"class="part12"></td>
+        </tr>
+       </table>
+</div>               
+</div>
+
+</body>
+</html>
